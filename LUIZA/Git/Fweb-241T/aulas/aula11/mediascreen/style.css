@@ -1,0 +1,49 @@
+@media screen and (max-width:1024px) {
+ 
+    body{
+       background-color:red;
+    }
+    h1::after {
+        content: "1024px";
+      
+    }
+         
+   }
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+ 
+    body{
+       background-color:orange;
+    }
+    h1::after {
+        content: "768px a 1024px";
+      
+    } 
+   }
+
+
+@media screen and (min-width:480px) and (max-width:768px) {
+ 
+ body{
+    background-color: purple;
+ }
+ h1::after {
+    content: "480px a 768px";
+  
+}
+      
+}
+
+@media screen and (max-width:480px) {
+ 
+    body{
+       background-color:green;
+    }
+         
+   h1::after {
+    content: "480px";
+  
+}
+   }
+
+  

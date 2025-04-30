@@ -1,0 +1,61 @@
+html{
+   width: 100%;
+   height: 100%;
+}
+
+body{
+width: 100%;
+height: 100%;
+}
+
+
+h1{
+    color: yellow; 
+    background-color: tomato;
+    font-family: 'Sedgwick Ave', cursive;
+   
+}
+#texto{
+    background-color: tomato;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+#artist{
+    border-bottom: 2px solid #333333;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#year{
+    border-bottom: 2px solid #333333;  
+    font-family: 'Sedgwick Ave', cursive;
+}
+#type{
+    border-bottom: 2px solid #333333;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#dimensions{
+    border-bottom: 2px solid #333333;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#location{
+    border-bottom: 2px solid #333333;
+    font-family: 'Sedgwick Ave', cursive;
+}
+#link{
+font-family: 'Caveat',cursive;
+}
+#esquerda{
+    float: left;
+    height: 85%;
+     width: 49%;
+     background-color: tomato;
+     font
+}
+#direita {
+   
+    height: 70%;
+     width: auto;
+}
+#rodape p{
+padding-top: 15%; ;
+text-align: center;
+}

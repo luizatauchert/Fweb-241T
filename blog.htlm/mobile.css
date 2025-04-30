@@ -1,0 +1,72 @@
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/736x/0b/61/f1/0b61f1f87e16785ea935dcf261cb80b3.jpg);
+}
+
+
+.menu-opcoes {
+    width: 50%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: rgba(63, 6, 63, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: inline-block;
+    align-items: center;
+    
+}
+
+#titulo img {
+    width: 30%;
+}
+
+#titulo h1 {
+    float: right;
+}
+
+section {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(201, 109, 240, 0.482);
+    border-radius: 20px;
+    flex-direction: column;
+    margin: 5px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+   
+    
+}
+
+h1 {
+    font-size: 20px;
+    font-style: inherit;
+}
+
+a {
+    color: blueviolet;
+}
+.grito h1:hover{
+    
+
+}

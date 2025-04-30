@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f9f7ff, #f1e8ff);
+    color: #333;
+    line-height: 1.6;
+  }
+
+header {
+    background-color: rgba(201, 109, 240, 0.482);
+    padding: 20px 0;
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+  }
+  
+  .menu-opcoes a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-opcoes a:hover {
+    text-decoration: underline;
+    color: #fff7ff;
+  }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.busca {
+    background-color: rgba(201, 109, 240, 0.482);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.busca h2 {
+    margin-bottom: 10px;
+}
+
+.busca form {
+    display: flex;
+    gap: 10px;
+}
+
+.busca input[type="search"] {
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.busca input[type="submit"] {
+    padding: 10px 20px;
+    background-color: white;
+    color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.busca input[type="submit"]:hover {
+    background-color: rgba(201, 109, 240, 0.482);
+    color: white;
+}
+
+.menu-conteudo {
+    width: 100%;
+    max-width: 250px;
+    background-color: rgba(201, 109, 240, 0.482);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.menu-conteudo h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.menu-conteudo ul {
+    list-style-type: none;
+}
+
+.menu-conteudo li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-conteudo a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.menu-conteudo a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(201, 109, 240, 0.482);
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer li {
+    display: inline;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

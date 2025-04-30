@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+img{
+    width: 90%;
+   
+}
+
+data-classe{
+    visibility: hidden;
+}
+
+
+ #titulo{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    
+ }
+   
+
+
+
+h1{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.personagem[data-classe="lobisomen"]{
+    background-color: rgb(146, 80, 80);
+    width: 16%;
+    height: 20%;
+    display: inline-block;
+    border-radius: 3px;
+   
+   
+
+}
+.personagem[data-classe="mumia"]{
+    background-color: rgb(235, 220, 131);
+    width: 16%;
+    height: 20%;
+    display: inline-block;
+    border-radius: 3px;
+}
+.personagem[data-classe="vampira"]{
+    background-color: rgb(214, 15, 124);
+    width: 16%;
+    height: 20%;
+    display: inline-block;
+    border-radius: 3px;
+    
+}
+.personagem[data-classe="mostromarinho"]{
+    background-color: rgb(15, 194, 214);
+    width: 16%;
+    height: 20%;
+    display: inline-block;
+    border-radius: 3px;
+}
+.personagem[data-classe="simulacro"]{
+    background-color: rgb(171, 172, 172);
+    width: 16%;
+    height: 20%;
+    display: inline-block;
+    border-radius: 3px;
+}
+

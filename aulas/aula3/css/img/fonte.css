@@ -1,0 +1,30 @@
+#p1{
+    font-family: serif;
+    font-size: smaller;
+    font-style: italic;
+    
+}
+#p2{
+    font-family: sans-serif;
+    font-size: small;
+    font-style:normal ;
+}
+
+#p3{
+font-family: monospace;
+font-style: oblique;
+font-size: medium;
+}
+
+#p4{
+font-family: cursive;
+font-style: italic;
+font-size: larger;
+}
+
+
+#p5{
+font-family: fantasy;
+font-style: oblique;
+font-size: x-small;
+}

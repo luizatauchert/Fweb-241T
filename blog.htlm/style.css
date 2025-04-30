@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f9f7ff, #f1e8ff);
+    color: #333;
+    line-height: 1.6;
+  }
+
+header {
+    background-color: rgba(201, 109, 240, 0.482);
+    padding: 20px 0;
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+  }
+  
+  .menu-opcoes a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-opcoes a:hover {
+    text-decoration: underline;
+    color: #fff7ff;
+  }
+main {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section {
+    width: 45%;
+    padding: 20px;
+    margin: 15px 0;
+    background-color: rgba(193, 132, 221, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+section a {
+    color: rgba(65, 23, 83, 0.482);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(201, 109, 240, 0.482);
+    padding: 15px;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/a3/7f/43/a37f437086e060c9e5eb621e65b1ab7e.jpg);
+}
+
+.carta {
+    background-color: #fcc5c7;
+    border-radius: 15px;
+    width: 70%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.topo h1 {
+    text-align: center;
+    color: #FFFFFF; /* Cor de destaque (tom de laranja avermelhado) */
+    font-size: 36px;
+}
+
+.topo p {
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+    margin-top: 10px;
+}
+
+.conteudo {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.conteudo p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.carta-emoji {
+    position: absolute;
+    top: 70px; /* mais acima */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px; /* tamanho maior */
+    z-index: 2; /* garante que fique na frente */
+    animation: balancar 2s infinite ease-in-out;
+  }
+@keyframes balancar {
+    0%, 100% {
+      transform: translateX(-50%) rotate(0deg);
+    }
+    50% {
+      transform: translateX(-50%) rotate(10deg);
+    }
+

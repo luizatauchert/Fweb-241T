@@ -1,0 +1,86 @@
+body{
+    background-image: url(./IMG/pokemonplanodefundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#pokedex{
+    width:27% ; 
+    height:auto ;
+    border:7.5px solid  ;
+    border-radius: 34px;
+   box-shadow: -6px 6px rgba(23, 22, 22, 0.553);
+}
+
+#idNomePokemon {
+    font-weight: bold;
+}
+
+
+#inputForm{
+    position: absolute;
+    top: 75%;
+    left:42% ;
+}
+
+#imagemPoke{
+   position: absolute; 
+   top: 34%;
+   left: 36%;
+   height: auto;
+   width: 20%;
+}
+
+#idNomePokemon{
+position: absolute;
+bottom: 40%;
+left: 47%;
+}
+
+
+#informacoes1{
+position: absolute;
+bottom: 28%;
+left: 42%;
+
+}
+
+#informacoes2{
+    position: absolute;
+    bottom: 28%;
+    left: 51%;
+    
+    }
+    
+   
+
+
+#botoes{
+    
+position: absolute;
+bottom: 15%;
+left: 45%;
+
+}
+
+#btnVoltar{
+ border: 2.6px solid black;
+ border-radius: 5px;
+ margin-right: 90px;
+ margin-left: -50px;
+ color: rgb(255, 255, 255);
+ background-color: rgb(40, 39, 39);
+box-shadow: -3px 3px rgba(45, 45, 45, 0.708);
+}
+#btnNext{
+    border: 2.6px solid black;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 39, 39);
+    box-shadow: -3px 3px rgba(45, 45, 45, 0.708);
+   }

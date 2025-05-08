@@ -1,31 +1,35 @@
 body{
-    background-image: url(./IMG/pokemonplanodefundo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(./IMG/pokemonplanodefundo.png);/* Imagem de fundo */
+    background-repeat: no-repeat;/* Faz com que a imagem não se repita */
+    background-size: cover;/* Faz com que a imagem cubra toda a tela  */
 }
 
 .container{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 5%;/* Faz com que a pokedex nao fique grudada no topo da pagina */
 }
 
 #pokedex{
     width:27% ; 
     height:auto ;
-    border:7.5px solid  ;
-    border-radius: 34px;
-   box-shadow: -6px 6px rgba(23, 22, 22, 0.553);
+    border:7.5px solid  ;/* Adiciona borda na pokedex */
+    border-radius: 34px;/* Faz com que a borda fique arredondada */
+   box-shadow: -6px 6px  rgba(70, 70, 70, 0.525);/* Adiciona sombra na pokedex */
 }
 
 #idNomePokemon {
-    font-weight: bold;
+    font-weight: bold;/* Deixa o id e o nome do pokemon negrito */
 }
 
 
 #inputForm{
+    border: 2px solid;/* Adiciona borda*/
+    border-radius: 5px;/* Deixa a borda arredondada*/
+    box-shadow: -3px 3px 3px  rgba(70, 70, 70, 0.847);/* Sombra da caixa de texto*/
     position: absolute;
-    top: 75%;
-    left:42% ;
+    top: 76%;
+    left:42.5% ;
+
 }
 
 #imagemPoke{
@@ -38,27 +42,40 @@ body{
 
 #idNomePokemon{
 position: absolute;
-bottom: 40%;
-left: 47%;
+bottom: 40.5%;
+left: 44%;
 }
 
 
+
 #informacoes1{
+
 position: absolute;
-bottom: 28%;
-left: 42%;
+bottom: 34.5%;
+left: 49%;
+transform: translateX(-49%);/* Faz com que o texto continue centralizado */
 
 }
 
 #informacoes2{
+    
     position: absolute;
-    bottom: 28%;
-    left: 51%;
-    
+    bottom: 25.5%;
+    left: 49%;
+    transform: translateX(-49%);/* Faz com que o texto continue centralizado */
     }
-    
-   
 
+    #informacoes1,
+#informacoes2 {
+    background: radial-gradient(
+        ellipse at center,
+       rgba(208, 204, 75, 0.667) 10%, /* cor amarela */
+        rgba(255, 255, 255, 0) 80%  /* degrade das bordas*/
+      );
+    border-radius: 5px;
+  
+}
+    
 
 #botoes{
     
@@ -68,19 +85,31 @@ left: 45%;
 
 }
 
-#btnVoltar{
- border: 2.6px solid black;
- border-radius: 5px;
- margin-right: 90px;
+
+#btnVoltar{ 
+ border: 2.6px solid black;/* Adiciona borda no botão de voltar */
+ border-radius: 5px;/* Faz com que a borda fique aredondada */
+ margin-right: 90px;/* Faz com que o botão back fique separado do botão next */
  margin-left: -50px;
  color: rgb(255, 255, 255);
- background-color: rgb(40, 39, 39);
-box-shadow: -3px 3px rgba(45, 45, 45, 0.708);
+ background-color: rgb(40, 39, 39);/* Adiciona uma cor de fundo para o botão */
+box-shadow: -3px 3px 3px  rgba(70, 70, 70, 0.847);/* Adiciona sombra no botão */
 }
+
+#btnVoltar:hover {/*Faz com que quando o usuario passe o mouse o botão mude de cor e tamanho */
+    background-color: #141414;
+    transform: scale(1.05);
+  }
+
 #btnNext{
-    border: 2.6px solid black;
-    border-radius: 5px;
+    border: 2.6px solid black;/* Adiciona borda no botão de proximo */
+    border-radius: 5px;/* Faz com que a borda fique aredondada */
     color: rgb(255, 255, 255);
-    background-color: rgb(40, 39, 39);
-    box-shadow: -3px 3px rgba(45, 45, 45, 0.708);
+    background-color: rgb(40, 39, 39);/* Adiciona uma cor de fundo para o botão */
+    box-shadow: -3px 3px 3px rgba(70, 70, 70, 0.847);/* Adiciona sombra no botão */
    }
+
+   #btnNext:hover {/*Faz com que quando o usuario passe o mouse o botão mude de cor e tamanho */
+    background-color: #141414;
+    transform: scale(1.05);
+  }

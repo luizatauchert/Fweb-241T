@@ -8,43 +8,66 @@
 </head>
 <body>
     <main>
+
+        <audio autoplay loop><!-- Audio do fundo do site -->.
+            <source src="./audio/Pokémon Theme Song [JuYeHPFR3f0].mp3" type="audio/mp3">
+        </audio>
+
+        <script>//Diminuir o volume do audio 
+            const audio = document.querySelector('audio');
+            audio.volume = 0.3; 
+          </script>
+
+
+<!-- Classe que guarda todas as imagens, informações e botões -->
         <div class="container">
+            
+            <!-- Imagem da pokedex-->
             <figure id="figPokedex">
                 <img id="pokedex" src="./IMG/Cópia de pokedex.png" alt="Imagem de uma Pokédex">
             </figure>
 
+<!-- Imagem do pokemon -->
             <figure id="imagemPoke">
                 <img id="fotoPoke" src="" alt="Imagem do Pokémon">
             </figure>
 
+
+<!-- Caixa de texto  -->
             <form id="formPoke">
                 
                 <input id="inputForm" type="text" >
             </form>
 
+
+<!-- Id e nome do pokemon -->
             <div id="idNomePokemon">
                 <span id="idPokemon">#000</span>
                 <span id="nomePokemon">Pokémon</span>
             </div>
 
+
+            <div id="INFO"> 
+<!-- Tipo dos pokemons -->
             <div id="informacoes1">
                 <span id="tipo1">Tipo1</span>
                 <span id="tipo2">Tipo2</span>
             </div>
-
+<!-- Informações sobre o pokemon  -->
             <div id="informacoes2">
                 <div id="habilidade">Habilidade</div>
                 <div id="peso">Peso</div>
                 <div id="altura">Altura</div>
             </div>
-
+</div>
+<!-- Botões de voltar e próximo -->
             <div id="botoes">
-                <button id="btnVoltar" type="button">Voltar</button>
-                <button id="btnNext" type="button">Próximo</button>
+                <button id="btnVoltar" type="button"> <b>Voltar</b> </button>
+                <button id="btnNext" type="button"><b>Próximo</b></button>
             </div>
         </div>
     </main>
-
+<!-- Link para o javascript -->.
     <script src="./script.js"></script>
 </body>
 </html>

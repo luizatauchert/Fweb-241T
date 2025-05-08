@@ -8,8 +8,8 @@ let tipo2Poke = document.querySelector("#tipo2");
 let habilidade = document.querySelector("#habilidade");
 let peso = document.querySelector("#peso");
 let altura = document.querySelector("#altura");
-let back = document.querySelector("btnVoltar");
-
+let back = document.querySelector("#btnVoltar");
+let next = document.querySelector("#btnNext");
 
 let numeroPokedex = 1;
 
@@ -22,45 +22,62 @@ const fetchPokemon = async (pokemon) => {
 const showPokemon = async (pokemon) => {
     const dataPokemon = await fetchPokemon(pokemon);
 
-    imgPokemon.src = dataPokemon.sprites.front_default;
+    imgPokemon.src = dataPokemon.sprites.other.showdown.front_default;
     nomePoke.innerHTML = dataPokemon.name.toUpperCase();
     idPoke.innerHTML = `#${dataPokemon.id}`;
-    tipo1Poke.innerHTML = dataPokemon.types[0].type.name;
-    tipo2Poke.innerHTML = dataPokemon.types[1] ? dataPokemon.types[1].type.name : "-";
-    habilidade.innerHTML = dataPokemon.abilities[0].ability.name;
-    peso.innerHTML = `${dataPokemon.weight / 10} kg`;
-    altura.innerHTML = `${dataPokemon.height / 10} m`;
+    tipo1Poke.innerHTML = "<b>Tipo: </b>" + dataPokemon.types[0].type.name;
+    tipo2Poke.innerHTML =  dataPokemon.types[1] ? dataPokemon.types[1].type.name : "-";
+    habilidade.innerHTML = "<b>Habilidade: </b>" + dataPokemon.abilities[0].ability.name;
+    peso.innerHTML = "<b>Peso:</b> " +`${dataPokemon.weight / 10} kg`;
+    altura.innerHTML = "<b>Altura: </b>" +`${dataPokemon.height / 10} m`;
+
+     const audio = new Audio(dataPokemon.cries.latest);
+     audio.play();
+     if (dataPokemon.types[1] != undefined) 
+     {tipo2.innerHTML = dataPokemon.types[1].type.name;
+    } else {
+        tipo2.innerHTML = "";
+    }   
+
 
     numeroPokedex = dataPokemon.id;
 };
 
-formPoke.addEventListener('submit', (event) => {
+formPoke.addEventListener("submit", (event) => {
     event.preventDefault();
-    const pokeName = inputF.value.trim().toLowerCase();
-    if (pokeName) {
-        showPokemon(pokeName);
-    }
+    showPokemon(inputF.value.toLowerCase())
+    numeroPokedex = inputF.value;
 });
 
-
-back.addEventListener("click", (event) =>{
-    if(numeroPokedex > 1)
-    {
-        numeroPokedex = numeroPokedex - 1
+//botão next
+next.addEventListener('click', (event) => {
+    
+    if (numeroPokedex < 1000) {
+        numeroPokedex = numeroPokedex + 1;
     }
     showPokemon(numeroPokedex);
 })
 
 
-next.addEventListener("click",(event) =>{
-    if(numeroPokedex < 1000)
-
-{
-    numeroPokedex = numeroPokedex + 1
-}
+//botão back 
+back.addEventListener('click', (event) => {
+   
+    if (numeroPokedex > 1) {
+        numeroPokedex = numeroPokedex - 1;
+    }
+    showPokemon(numeroPokedex);
+})
 showPokemon(numeroPokedex);
 
-})
+
+
+
+
+
+
+
+
+
 
 
 

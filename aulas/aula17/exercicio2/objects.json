@@ -1,0 +1,40 @@
+{
+    "pessoas" : [
+       {
+       "nome" : "Gabriela", 
+       "idade" : 30,
+       "cpf" :  "04333606071",
+       "telefone" : 55155991630585
+       
+   },
+
+   {
+    "nome" : "Laura", 
+    "idade" : 10,
+    "cpf" :  "04333606675",
+    "telefone" : 55155991635472
+    
+},
+{
+    "nome" : "Vitor", 
+    "idade" : 29,
+    "cpf" :  "04333609085",
+    "telefone" : 55151265635472
+    
+},
+{
+    "nome" : "Larissa", 
+    "idade" : 19,
+    "cpf" :  "04333667485",
+    "telefone" : 55151265639065
+    
+},
+{
+    "nome" : "Luiz", 
+    "idade" : 20,
+    "cpf" :  "04898667485",
+    "telefone" : 55158965639065
+    
+}
+       ]
+}

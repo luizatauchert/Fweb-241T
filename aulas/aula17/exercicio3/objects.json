@@ -1,0 +1,32 @@
+{
+    "Matematica": [
+        "Lucas", "Julia", "Pedro", "Laura"
+    ],
+    "Português": [
+        "Liz", "Antonella", "Vitor", "Luiza"
+    ],
+    "Física": [
+        "Luiz", "Cristine", "Matheus", "Larrissa"
+    ],
+    "Química": [
+        "Bruna", "Cristine", "Matheus", "Larrissa"
+    ],
+    "Biologia": [
+        "Rafael", "Isabela", "Caio", "Fernanda"
+    ],
+    "História": [
+        "João", "Alice", "Vinícius", "Gabriela"
+    ],
+    "Geografia": [
+        "Diego", "Sofia", "Henrique", "Marina"
+    ],
+    "Inglês": [
+        "Beatriz", "Otávio", "Nathalia", "Renan"
+    ],
+    "Educação Física": [
+        "Thiago", "Amanda", "Eduarda", "Felipe"
+    ],
+    "Artes": [
+        "Camila", "Enzo", "Melissa", "Daniel"
+    ]
+}

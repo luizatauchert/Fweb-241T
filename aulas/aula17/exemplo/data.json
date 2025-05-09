@@ -1,0 +1,32 @@
+{
+     "pessoas" : [
+        {
+        "nome" : "Fulano", 
+        "idade" : 30,
+        "local" : {
+            "cidade" : "São Leopoldo",
+            "UF" : "Rio Grande do Sul",
+            "País" : "Brasil"
+        }
+    },
+    
+        {
+            "nome" : "Luiza", 
+        "idade" : 19,
+        "local" : {
+            "cidade" : "São Leopoldo",
+            "UF" : "Rio Grande do Sul",
+            "País" : "Brasil"
+        }
+        },
+    
+        {
+      "nome" : "Amanda", 
+        "idade" : 19,
+        "local" : {
+            "cidade" : "São Leopoldo",
+            "UF" : "Rio Grande do Sul",
+            "País" : "Brasil"
+        }}
+        ]
+}

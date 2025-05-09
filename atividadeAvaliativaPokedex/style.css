@@ -27,8 +27,8 @@ body{
     border-radius: 5px;/* Deixa a borda arredondada*/
     box-shadow: -3px 3px 3px  rgba(70, 70, 70, 0.847);/* Sombra da caixa de texto*/
     position: absolute;
-    top: 76%;
-    left:42.5% ;
+    top: 76%;/*Ajusta a caixa de texto na pagina*/
+    left:42.5% ;/*Ajusta a caixa de texto na pagina*/
 
 }
 
@@ -72,7 +72,7 @@ transform: translateX(-49%);/* Faz com que o texto continue centralizado */
        rgba(208, 204, 75, 0.667) 10%, /* cor amarela */
         rgba(255, 255, 255, 0) 80%  /* degrade das bordas*/
       );
-    border-radius: 5px;
+    border-radius: 5px;/*Deixa as bordas arredondadas*/
   
 }
     

@@ -69,6 +69,12 @@ back.addEventListener('click', (event) => {
 })
 showPokemon(numeroPokedex);
 
+// Função que toca o som do Pokémon 
+const som = document.getElementById('somPokemon');
+document.addEventListener('click', () => {
+  som.muted = false;
+  som.play();
+});
 
 
 
